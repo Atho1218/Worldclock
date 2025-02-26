@@ -2,6 +2,17 @@ body {
   font-family: "Jost", serif;
   background-color: #606c38;
 }
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -10,32 +21,7 @@ body {
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
 }
-.city {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0px;
-  padding: 30px 0;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-}
-.city:last-child {
-  border: none;
-}
-h2 {
-  margin: 0 0 5px;
-  font-size: 28px;
-}
-.date {
-  opacity: 0.7;
-}
-.time {
-  font-size: 48px;
-  font-weight: bold;
-}
-.time small {
-  font-size: 24px;
-  vertical-align: middle;
-  line-height: 48px;
-}
+
 select {
   display: block;
   width: 100%;
@@ -45,15 +31,39 @@ select {
   padding: 10px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 38px;
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
 footer {
   text-align: center;
   font-size: 18px;
   color: #fefae0;
 }
+
 a {
   color: #283618;
 }
