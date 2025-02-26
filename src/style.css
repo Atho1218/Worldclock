@@ -1,11 +1,11 @@
 body {
   font-family: "Jost", serif;
-  background-color: bisque;
+  background-color: #606c38;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #a3b18a;
   padding: 30px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
@@ -40,6 +40,7 @@ select {
   display: block;
   width: 100%;
   font-size: 18px;
+  border: none;
   border-radius: 5px;
   padding: 10px;
 }
@@ -51,5 +52,8 @@ h1 {
 footer {
   text-align: center;
   font-size: 18px;
-  color: grey;
+  color: #fefae0;
+}
+a {
+  color: #283618;
 }
