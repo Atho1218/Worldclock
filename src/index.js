@@ -47,6 +47,7 @@ function updateCity(event) {
             "h:mm:ss"
           )} <small>${cityTime.format("A")}</small></div>
         </div>
+         <a href="https://teal-sfogliatella-813199.netlify.app/">All cities</a>
         `;
 }
 
